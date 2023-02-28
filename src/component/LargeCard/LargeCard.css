@@ -1,0 +1,56 @@
+.LargeCard-content {}
+
+.LargeCard-content img {
+    border-radius: calc(var(--dist-value)/3);
+    margin-bottom: 10px;
+}
+
+.LargeCard-content .content {
+    display: flex;
+    gap: 10px;
+}
+
+.LargeCard-content .content .text span {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.LargeCard-content .content .text h5 {
+    margin-top: 10px;
+    font-weight: var(--bold-weight);
+    max-width: 80%;
+    font-size: 18px;
+
+}
+
+.LargeCard-image {
+    position: relative;
+}
+
+.LargeCard-image:hover span {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.LargeCard-image .info-btns,
+.LargeCard-image .live-btns,
+.LargeCard-image .game-btns {
+    position: absolute;
+    z-index: 2;
+    opacity: 0;
+}
+
+.LargeCard-image .live-btns {
+    top: 8%;
+    right: 5%;
+}
+
+.LargeCard-image .info-btns {
+    bottom: 10%;
+    left: 5%;
+}
+
+.LargeCard-image .game-btns {
+    bottom: 10%;
+    right: 5%;
+}

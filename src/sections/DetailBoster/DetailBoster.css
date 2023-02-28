@@ -1,0 +1,13 @@
+.images {
+    width: 100%;
+    border-radius: calc(var(--dist-value)/3);
+}
+
+.detaile-title {
+    text-align: center;
+    padding: 30px;
+}
+
+.detaile-title h1 {
+    font-weight: var(--bold-weight);
+}

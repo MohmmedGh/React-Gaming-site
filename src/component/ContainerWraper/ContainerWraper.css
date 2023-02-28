@@ -1,0 +1,11 @@
+.ContainerWraper {
+    background-color: var(--darkest-color);
+    padding: calc(var(--padding-primary)/2);
+    margin-bottom: calc(var(--margin-primary)/2);
+    margin-top: var(--margin-primary);
+    border-radius: var(--radius-primary);
+    -webkit-border-radius: var(--radius-primary);
+    -moz-border-radius: var(--radius-primary);
+    -ms-border-radius: var(--radius-primary);
+    -o-border-radius: var(--radius-primary);
+}

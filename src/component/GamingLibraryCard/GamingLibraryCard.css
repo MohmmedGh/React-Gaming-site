@@ -1,0 +1,36 @@
+.game {
+    display: flex;
+    flex: 1 1 100%;
+}
+
+.my-row {
+    flex-basis: 100%;
+    padding: 15px 0;
+    border-bottom: 1px solid var(--gray-text-color);
+    align-items: center;
+}
+
+@media (max-width:990px) {
+    .culom {
+        flex-basis: 50%;
+        padding-bottom: 15px;
+    }
+}
+
+.culom img {
+    border-radius: var(--radius-primary);
+    -webkit-border-radius: var(--radius-primary);
+    -moz-border-radius: var(--radius-primary);
+    -ms-border-radius: var(--radius-primary);
+    -o-border-radius: var(--radius-primary);
+}
+
+.culom h6 {
+    font-weight: var(--bold-weight);
+    font-size: 15px;
+}
+
+.culom span {
+    font-size: 14px;
+    color: var(--gray-text-color);
+}

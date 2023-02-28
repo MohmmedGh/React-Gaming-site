@@ -1,0 +1,26 @@
+.main-hero {
+    background: url('../../asset/images/banner-bg.jpg') no-repeat top right;
+    background-size: cover;
+    padding: var(--padding-primary);
+    border-radius: var(--radius-primary);
+}
+
+.content {
+    max-width: 499px;
+}
+
+.title h5 {
+    margin-bottom: 25px;
+    font-weight: var(--reg-weight);
+}
+
+.sub-title h3 {
+    font-size: 45px;
+    font-weight: var(--bold-weight);
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.sub-title h3 span {
+    color: var(--primary-color);
+}

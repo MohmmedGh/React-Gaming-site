@@ -1,0 +1,52 @@
+:root {
+    --dark-color: #27292a;
+    --light-color: #fff;
+    --gray-text-color: #626768;
+    --dark-gray-color: #444444;
+    --primary-color: #ec6090;
+    --darkest-color: #1f2122;
+    --bg-color: var(--darkest-color);
+    --bold-weight: 700;
+    --reg-weight: 400;
+    --dist-value: 60px;
+    --padding-primary: var(--dist-value);
+    --margin-primary: var(--dist-value);
+    --radius-primary: calc(var(--dist-value)/3);
+    --font-family: 'Poppins', sans-serif
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: var(--font-family);
+    font-weight: var(--reg-weight);
+    background-color: var(--bg-color);
+    color: #fff;
+
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a,
+a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+hr {
+    margin: 25px 0 !important;
+    color: var(--gray-text-color) !important;
+}

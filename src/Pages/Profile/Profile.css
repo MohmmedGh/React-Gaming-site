@@ -1,0 +1,30 @@
+.image {
+    width: 100%;
+    border-radius: calc(var(--dist-value)/3);
+
+}
+
+.statistic {
+    background-color: var(--dark-color);
+    max-height: 300px;
+    border-radius: 25px;
+}
+
+.statistic-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.statistic-content li {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid var(--gray-text-color);
+    font-size: 14px;
+    color: var(--gray-text-color);
+}
+
+.statistic-content li span {
+    color: var(--primary-color);
+}

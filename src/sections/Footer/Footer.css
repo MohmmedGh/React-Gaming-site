@@ -1,0 +1,25 @@
+.container .footer {
+    text-align: center;
+}
+
+.container .footer p {
+    padding: 30px 0;
+    font-weight: 300;
+    font-size: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+    line-height: 2;
+}
+
+.container .footer .link {
+    color: var(--light-color);
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+
+.container .footer .link:hover {
+    color: var(--primary-color);
+}

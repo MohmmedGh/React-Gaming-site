@@ -1,0 +1,26 @@
+.card-top {
+    padding: calc(var(--padding-primary)/4) 0;
+    border-bottom: 1px solid var(--dark-color);
+    align-items: center;
+}
+
+
+.card-top .imag img {
+    border-radius: var(--radius-primary);
+}
+
+.card-top .brows-info>h6 {
+    font-size: 15px;
+    font-weight: var(--bold-weight);
+}
+
+.card-top .brows-info span {
+    font-size: 14px;
+    color: var(--gray-text-color);
+}
+
+.card-top .rate {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}

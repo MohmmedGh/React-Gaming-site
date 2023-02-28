@@ -1,0 +1,19 @@
+.title {
+    margin-bottom: calc(var(--margin-primary)/2);
+}
+
+.title h4 {
+    font-weight: var(--bold-weight);
+    color: var(--primary-color);
+}
+
+@media(min-width:992px) {
+    .title h4 {
+        font-size: 34px;
+    }
+}
+
+.title h4 span {
+    text-decoration: underline;
+    color: var(--light-color);
+}

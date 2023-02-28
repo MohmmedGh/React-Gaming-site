@@ -1,0 +1,35 @@
+.star-icon {
+    margin-right: 5px;
+    color: yellow;
+}
+
+.related-card {
+    display: flex;
+    align-items: center;
+    padding: calc(var(--dist-value)/2) 0;
+    border-bottom: 1px solid var(--dark-color);
+}
+
+
+.related-card .related-image img {
+    border-radius: calc(var(--dist-value)/3);
+}
+
+.related-card .contents {
+    width: 100%;
+    margin-left: 13px;
+    font-size: 14px;
+}
+
+.contents .related-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contents .related-info h6 {
+    font-weight: var(--bold-weight);
+}
+
+.contents .related-info p {
+    color: var(--gray-text-color);
+}

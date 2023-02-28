@@ -1,0 +1,52 @@
+.card-popular .card-game {
+    flex: 1 25%;
+}
+
+.card-popular .card-game .game-content {
+    background-color: var(--dark-color);
+    border-radius: calc(var(--dist-value)/2);
+    padding: calc(var(--padding-primary)/2) calc(var(--padding-primary)/3);
+    margin: calc(var(--margin-primary)/5);
+}
+
+
+.game-content .img-game {
+    position: relative;
+}
+
+.game-content .img-game img {
+    width: 100%;
+    border-radius: calc(var(--dist-value)/2);
+    margin-bottom: calc(var(--dist-value)/4);
+
+}
+
+.game-content .content {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.game-content .content .text h5 {
+    font-weight: var(--bold-weight);
+    font-size: 15px;
+}
+
+.game-content .content .text span {
+    font-size: 15px;
+    color: var(--gray-text-color)
+}
+
+.content .numbers p {
+    margin-bottom: 3px;
+}
+
+.eye-icon {
+    margin-right: 5px;
+    color: var(--primary-color)
+}
+
+.download-icon {
+    margin-right: 5px;
+    color: var(--primary-color)
+}

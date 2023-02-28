@@ -1,0 +1,67 @@
+.sm {
+    padding: 10px;
+}
+
+.butt-sm {
+    padding: 10px 20px !important;
+}
+
+.butt {
+    border-radius: 25px;
+    padding: 13px 30px;
+    font-size: 14px;
+    transition: .3s;
+}
+
+
+.primary-btn {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+
+}
+
+.primary-btn:hover {
+    background-color: var(--light-color);
+    color: var(--primary-color);
+
+}
+
+.secondary-btn {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    background-color: transparent;
+
+}
+
+.secondary-btn:hover {
+    border-color: var(--light-color);
+    background-color: var(--light-color);
+    color: var(--primary-color);
+
+}
+
+.vedio-btn {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+.vedio-btn a {
+    background-color: var(--light-color);
+    color: var(--primary-color);
+    padding: 19px;
+    border-radius: 50%;
+}
+
+.rounded-btn {
+    border-radius: 50%;
+    color: var(--primary-color);
+    background-color: var(--dark-color);
+}
+
+.rounded-btn:hover {
+    color: var(--primary-color);
+    background-color: var(--light-color);
+    transition: .3s;
+}

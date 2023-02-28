@@ -1,0 +1,17 @@
+.top-stream ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: calc(var(--padding-primary)/3) 0;
+    border-bottom: 1px solid var(--dark-gray-color);
+}
+
+.top-stream ul .list-item img {
+    border-radius: 50%;
+}
+
+.top-stream ul .list-item .name {
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+}
